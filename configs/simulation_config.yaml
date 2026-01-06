@@ -1,0 +1,14 @@
+#Optical lithography parameters
+wavelength_nm: 193
+na: 0.85
+pixel_nm: 4
+dose_mj: 20
+theshold: 0.3
+
+#Pattern parameters
+pitch_px: 32
+duty_cycle: 0.5
+
+#image dimensions
+image_size: 256
+

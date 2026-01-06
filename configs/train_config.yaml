@@ -1,0 +1,18 @@
+batch_size: 32
+learning_rate: 0.001
+epochs: 10
+latent_dim: 64
+
+#Loss weights
+ssim_weight: 0.3
+mse_weight: 0.7
+
+# Hardware
+device: "cuda"
+num_workers: 2
+
+# Data
+train_clean_samples: 200
+test_clean_samples: 50
+test_defect_samples: 150
+
