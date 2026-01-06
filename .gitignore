@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Data (don't commit large files)
+data/
+*.npy
+*.png
+*.jpg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model weights
+*.pth
+*.pt
+
+# IDE
+.vscode/
+.idea/
+
+# Results
+results/
+logs/
+
