@@ -29,4 +29,3 @@ def add_line_roughness(image, roughness_amplitude=0.05):
     """Add edge roughness (LER)."""
     noise = np.random.normal(0, roughness_amplitude, image.shape)
     return np.clip(image + noise, 0, 1)
-
