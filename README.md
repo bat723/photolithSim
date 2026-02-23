@@ -18,7 +18,7 @@ This project is a pipeline designed to find microscopic defects in semiconductor
 ```bash
 git clone [https://github.com/bat723/photolithSim.git](https://github.com/bat723/photolithSim.git)
 cd photolithSim
-
+```
 
 2. Install Dependencies
 
@@ -27,14 +27,13 @@ pip install -r requirements.txt
 ```
 
 3. Run the physics simulation
-
 ```
 python scripts/6_contrast_process_window.py
-```
 
+```
 4. Run the anomoly detector
+
 
 ```
 python src/simulation/resist.py
 ```
-
